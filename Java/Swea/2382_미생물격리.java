@@ -102,4 +102,11 @@ public class Solution_2382_정우주
 	    }
 	    return total;
 	}
+
 }
+
+/*
+중요했던점
+- 좌표를 갱신해야하는데 nr = cur.r+dr[cur.dir];를 해버렸다.
+	- nr = cur.r += dr[cur.dir]을 해줘야함(+=로 갱신해줘야함)
+*/
