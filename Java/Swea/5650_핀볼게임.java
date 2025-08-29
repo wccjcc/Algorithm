@@ -122,3 +122,10 @@ public class Main
 		System.out.println(sb.toString()); //정답 출력력
 	}
 }
+
+/*
+헤맸던 부분
+- StringBuilder를 선언하면 조금 더 빠르다
+- 그냥 배열을 이용하면 시간복잡도가 O(1)이 되기 때문에 웜홀 때 배열을 이용하자
+- 빈 공간일 때의 부분을 처리해주지 않아서 계속 runtime error가 일어났었다
+*/
