@@ -1,4 +1,5 @@
-
+//다른풀이 
+//https://school.programmers.co.kr/learn/courses/30/lessons/42587/solution_groups?language=java&type=all
 import java.util.*;
 import java.io.*;
 
